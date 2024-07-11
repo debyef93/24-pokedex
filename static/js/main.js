@@ -66,18 +66,18 @@ const getPokemon = async (id, modal) => {
 
 /*pintar carta pokemon*/
 const colors = {
-    fuego: '#FFA05D',
-    planta: '#8FD594',
-    electrico: '#FFE43B',
-    agua: '#7E97C0',
-    tierra: '#CAAC4D',
-    roca: '#90642D',
-    veneno: '#9D5B9B',
-    bicho: '#EAFD71',
+    fire: '#FFA05D',
+    grass: '#8FD594',
+    electric: '#FFE43B',
+    water: '#7E97C0',
+    ground: '#CAAC4D',
+    rock: '#90642D',
+    poison: '#9D5B9B',
+    bug: '#EAFD71',
     dragon: '#97b3e6',
-    psiquico: '#FF96B5',
-    volador: '#CDCDCD',
-    lucha: '#FF5D5D',
+    psychic: '#FF96B5',
+    flying: '#CDCDCD',
+    fighting: '#FF5D5D',
     normal: '#FFFFFF'
 }
 
