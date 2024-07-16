@@ -158,7 +158,11 @@ function exitModal() {
     drawPokemon()
 }
 
-
+function error(){
+    var poke= new error("Pokemon no encontrado");
+    //poke.message es `Pokemon no encontrado´
+    throw poke;
+}
 
 const fetchAndDisplayPokemon = async () => {
     const id = pokemonIdInput.value;
